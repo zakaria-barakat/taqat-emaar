@@ -12,3 +12,8 @@ GeneratedPluginRegistrant.java
 key.properties
 **/*.keystore
 **/*.jks
+
+# Track Gradle wrapper files needed to restore and build the Android project
+!/gradlew
+!/gradlew.bat
+!/gradle/wrapper/gradle-wrapper.jar

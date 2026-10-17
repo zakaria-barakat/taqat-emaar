@@ -43,3 +43,34 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.*.example
+
+# Private keys and signing credentials
+*.jks
+*.keystore
+key.properties
+secrets/
+
+# Admin dashboard generated files
+**/node_modules/
+admin_dashboard/dist/
+
+# Local environment files
+.env.local
+.env.development.local
+.env.production.local
+
+ta qat_emaar_database_reference.txt.txt
+
+ta qat_emaar_database_reference.txt.txt
+
+taqat_emaar_database_reference.txt.txt
